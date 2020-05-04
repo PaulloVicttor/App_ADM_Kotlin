@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo2"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo1"
+        android:id="@+id/ivLogo1"
+
+        />
+
+    <TextView
+        android:id="@+id/tvAdministrador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrador"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo1"
+        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="110dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:id="@+id/tvUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdministrador"
+        app:layout_constraintLeft_toLeftOf="@+id/tvAdministrador"
+        android:layout_marginTop="40dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Insira seu Usuario"
+        android:textColor="#000"
+        android:inputType="text"
+        android:id="@+id/etUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/tvUsuario"
+        app:layout_constraintLeft_toLeftOf="@+id/tvUsuario"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:id="@+id/tvSenha"
+        app:layout_constraintTop_toBottomOf="@+id/etUsuario"
+        app:layout_constraintLeft_toLeftOf="@+id/etUsuario"
+
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Insira sua senha"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:id="@+id/etSenha"
+        app:layout_constraintTop_toBottomOf="@+id/tvSenha"
+        app:layout_constraintLeft_toLeftOf="@+id/tvSenha"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Entrar"
+        android:id="@+id/btEntrar"
+        app:layout_constraintTop_toBottomOf="@+id/etSenha"
+        app:layout_constraintLeft_toLeftOf="@+id/etSenha"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:background="#293BA3"
+        android:onClick="irTela2"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

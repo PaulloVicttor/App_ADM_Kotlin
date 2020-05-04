@@ -23,7 +23,7 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Torneios"
+        android:text="Criar torneios"
         android:textColor="#000"
         android:background="#293BA3"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo1"
@@ -31,6 +31,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="55dp"
         android:id="@+id/btTorneios"
+        android:onClick="irTela3"
         />
 
     <Button

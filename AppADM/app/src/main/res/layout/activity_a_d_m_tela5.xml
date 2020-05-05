@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ADMTela2">
+    tools:context=".ADMTela5">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/fundo3"
         />
-
     <ImageView
         android:layout_width="150dp"
         android:layout_height="70dp"
@@ -20,57 +18,60 @@
         android:id="@+id/ivLogo1"
 
         />
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Criar torneios"
-        android:textColor="#000"
-        android:background="#293BA3"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogo1"
-        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="55dp"
-        android:id="@+id/btTorneios"
-        android:onClick="irTela3"
-        />
 
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Jogadores"
-        android:textColor="#000"
-        android:background="#293BA3"
-        app:layout_constraintTop_toBottomOf="@+id/btTorneios"
-        app:layout_constraintLeft_toLeftOf="@+id/btTorneios"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btJogadores"
-        android:onClick="irTela4"
-        />
-
-    <Button
-        android:layout_width="300dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Loja"
         android:textColor="#000"
-        android:background="#293BA3"
-        app:layout_constraintTop_toBottomOf="@+id/btJogadores"
-        app:layout_constraintLeft_toLeftOf="@+id/btJogadores"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btLoja"
-        android:onClick="irTela5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo1"
+        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/tvLoja"
         />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Power BI"
+        android:text="Itens Mais Vendidos"
         android:textColor="#000"
         android:background="#293BA3"
-        app:layout_constraintTop_toBottomOf="@+id/btLoja"
-        app:layout_constraintLeft_toLeftOf="@+id/btLoja"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btBI"
+        app:layout_constraintTop_toBottomOf="@id/tvLoja"
+        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/btItens"
         />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Promoções"
+        android:textColor="#000"
+        android:background="#293BA3"
+        app:layout_constraintTop_toBottomOf="@+id/btItens"
+        app:layout_constraintLeft_toLeftOf="@+id/btItens"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btPromo"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Futuros Itens"
+        android:textColor="#000"
+        android:background="#293BA3"
+        app:layout_constraintTop_toBottomOf="@+id/btPromo"
+        app:layout_constraintLeft_toLeftOf="@+id/btPromo"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btFuturo"
+        />
+
+
+
 
 
 

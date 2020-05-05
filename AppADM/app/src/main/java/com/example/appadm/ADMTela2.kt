@@ -19,4 +19,16 @@ class ADMTela2 : AppCompatActivity() {
 
     }
 
+    fun irTela4(v:View){
+        val tela4 = Intent(this, ADMTela4::class.java)
+
+        startActivity(tela4)
+    }
+
+    fun irTela5(v:View){
+        val tela5 = Intent(this, ADMTela5::class.java)
+
+        startActivity(tela5)
+    }
+
 }

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ADMTela3"></activity>
+        <activity android:name=".ADMTela5"></activity>
+        <activity android:name=".ADMTela4" />
+        <activity android:name=".ADMTela3" />
         <activity android:name=".ADMTela2" />
         <activity android:name=".MainActivity">
             <intent-filter>

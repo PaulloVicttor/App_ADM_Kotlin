@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ADMTela5"></activity>
+        <activity android:name=".ADMTela8"></activity>
+        <activity android:name=".ADMTela7" />
+        <activity android:name=".ADMTela6" />
+        <activity android:name=".ADMTela5" />
         <activity android:name=".ADMTela4" />
         <activity android:name=".ADMTela3" />
         <activity android:name=".ADMTela2" />

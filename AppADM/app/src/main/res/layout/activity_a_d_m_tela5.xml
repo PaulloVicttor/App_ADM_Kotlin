@@ -44,6 +44,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginLeft="60dp"
         android:id="@+id/btItens"
+        android:onClick="irTela6"
         />
 
     <Button
@@ -56,6 +57,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/btItens"
         android:layout_marginTop="50dp"
         android:id="@+id/btPromo"
+        android:onClick="irTela7"
         />
 
     <Button
@@ -68,6 +70,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/btPromo"
         android:layout_marginTop="50dp"
         android:id="@+id/btFuturo"
+        android:onClick="irTela8"
         />
 
 

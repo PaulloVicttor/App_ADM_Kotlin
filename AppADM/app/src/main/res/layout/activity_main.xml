@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/fundo2"
@@ -16,27 +17,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/ivLogo1"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:src="@drawable/logo1"
-        android:id="@+id/ivLogo1"
 
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvAdministrador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
         android:text="Administrador"
         android:textColor="#000"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogo1"
-        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="110dp"
 
-        />
+        app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo1" />
 
     <TextView
         android:layout_width="wrap_content"

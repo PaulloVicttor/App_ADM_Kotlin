@@ -37,4 +37,42 @@
         android:id="@+id/tvIMVendidos"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1º Canoa Dourada"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvIMVendidos"
+        app:layout_constraintLeft_toLeftOf="@+id/tvIMVendidos"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tv1Lugar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2º Chapéu Preto"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tv1Lugar"
+        app:layout_constraintLeft_toLeftOf="@+id/tv1Lugar"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tv2Lugar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3º Camisa Rosa"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tv2Lugar"
+        app:layout_constraintLeft_toLeftOf="@+id/tv2Lugar"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tv3Lugar"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

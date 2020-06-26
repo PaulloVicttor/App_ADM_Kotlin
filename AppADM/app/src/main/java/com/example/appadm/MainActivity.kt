@@ -11,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+fun doLogin(v:View){
 
+}
     fun irTela2(v:View){
         val tela2 = Intent(this, ADMTela2::class.java)
 

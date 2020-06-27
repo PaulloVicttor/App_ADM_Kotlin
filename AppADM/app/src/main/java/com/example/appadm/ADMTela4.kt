@@ -9,4 +9,7 @@ class ADMTela4 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_a_d_m_tela4)
     }
+
+
+
 }

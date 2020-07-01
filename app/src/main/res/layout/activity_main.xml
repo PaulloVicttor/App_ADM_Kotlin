@@ -100,7 +100,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="60dp"
         android:background="#293BA3"
-        android:onClick="buttonLogin"
+        android:onClick="irTela2"
 
         />
 

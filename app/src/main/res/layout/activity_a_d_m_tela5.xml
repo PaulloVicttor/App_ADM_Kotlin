@@ -47,7 +47,7 @@
         android:background="#293BA3"
         app:layout_constraintTop_toBottomOf="@id/tvLoja"
         app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="140dp"
         android:layout_marginLeft="60dp"
         android:id="@+id/btItens"
         android:onClick="irTela6"
@@ -61,23 +61,23 @@
         android:background="#293BA3"
         app:layout_constraintTop_toBottomOf="@+id/btItens"
         app:layout_constraintLeft_toLeftOf="@+id/btItens"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="90dp"
         android:id="@+id/btPromo"
         android:onClick="irTela7"
         />
 
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Futuros Itens"
-        android:textColor="#000"
-        android:background="#293BA3"
-        app:layout_constraintTop_toBottomOf="@+id/btPromo"
-        app:layout_constraintLeft_toLeftOf="@+id/btPromo"
-        android:layout_marginTop="50dp"
-        android:id="@+id/btFuturo"
-        android:onClick="irTela8"
-        />
+<!--    <Button-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Futuros Itens"-->
+<!--        android:textColor="#000"-->
+<!--        android:background="#293BA3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btPromo"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/btPromo"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:id="@+id/btFuturo"-->
+<!--        android:onClick="irTela8"-->
+<!--        />-->
 
 
 

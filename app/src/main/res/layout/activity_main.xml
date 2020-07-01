@@ -34,8 +34,8 @@
         android:text="Administrador"
         android:textColor="#000"
         android:textSize="30sp"
-        android:textStyle="bold"
 
+        android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@+id/ivLogo1"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo1" />
 
@@ -54,16 +54,15 @@
         />
 
     <EditText
+        android:id="@+id/etUsuario"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:hint="Insira seu Usuario"
-        android:textColor="#000"
         android:inputType="text"
-        android:id="@+id/etUsuario"
-        app:layout_constraintTop_toBottomOf="@+id/tvUsuario"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/tvSenha"
         app:layout_constraintLeft_toLeftOf="@+id/tvUsuario"
-
-        />
+        app:layout_constraintTop_toBottomOf="@+id/tvUsuario" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -101,7 +100,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="60dp"
         android:background="#293BA3"
-        android:onClick="irTela2"
+        android:onClick="buttonLogin"
 
         />
 

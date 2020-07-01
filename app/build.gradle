@@ -37,4 +37,9 @@ dependencies {
 
     implementation 'io.github.openfeign:feign-core:9.7.0'
     implementation 'io.github.openfeign:feign-gson:9.7.0'
+
+    def coroutines_version = "1.2.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+
 }
